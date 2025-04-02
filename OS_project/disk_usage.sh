@@ -1,3 +1,4 @@
+#!/bin/bash
 # Function to display disk usage
 disk_usage() {
   local directory="$1"
