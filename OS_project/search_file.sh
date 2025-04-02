@@ -1,3 +1,4 @@
+#!/bin/bash
 search_file() {
   local directory="$1"
   local search_term="$2"
