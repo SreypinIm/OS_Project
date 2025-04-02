@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # Function to create backups
 create_backup() {
   local source="$1"
