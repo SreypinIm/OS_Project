@@ -14,7 +14,7 @@ This Bash program provides various file and directory management features, inclu
 
 ## File Structure
 ```
-repository_directory/
+OS_project/
 ├── main.sh          # Main script providing menu and calling respective functions
 ├── list_files.sh    # Function to list files and sub-directories
 ├── backup.sh        # Function to create backups
