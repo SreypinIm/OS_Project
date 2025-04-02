@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 . ./list_details.sh
 . ./create_backup.sh
 . ./count_files.sh
