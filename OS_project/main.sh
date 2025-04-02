@@ -1,4 +1,11 @@
-#!/bin/bash
+#!/bin/sh
+. ./list_details.sh
+. ./create_backup.sh
+. ./count_files.sh
+. ./disk_usage.sh
+. ./search_file.sh
+. ./compress_files.sh
+
 while true; do
   echo ""
   echo "************************************"
@@ -17,14 +24,14 @@ while true; do
   echo ""
 
   case "$choice" in
-    1) bash list_details.sh ;;
-    2) bash create_backup.sh ;;
-    3) bash count_files.sh ;;
-    4) bash disk_usage.sh ;;
-    5) bash search_file.sh ;;
-    6) bash compress_files.sh ;;
-    7) echo "Exiting..."; exit 0 ;;
-    *) echo "Invalid choice. Please enter a number between 1 and 7." ;;
+    1) list_details ;;
+    2) create_backup ;;
+    3) count_files ;;
+    4) disk_usage ;;
+    5) search_file ;;
+    6) compress_files ;;
+    7) log_action "Exiting program"; exit 0 ;;
+    *) echo "Invalid choice." ;;
   esac
   echo ""
 done
