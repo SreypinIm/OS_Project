@@ -1,3 +1,4 @@
+#!/bin/bash
 # Function to compress files or directories
 compress_files() {
   local source="$1"
