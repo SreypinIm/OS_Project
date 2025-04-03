@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # Function to count files in a directory
 count_files() {
